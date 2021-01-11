@@ -1,0 +1,307 @@
+:root{
+
+	--dark: #807e7e;
+  	--white: #ffffff;
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+html{
+
+	scroll-behavior: smooth;
+
+}
+
+
+.section-our-innovation .contact-us .our-skills .connect-with-us 
+.marks-obtain .our-team .news-letter.footer-section .our-team .some-details{
+
+	width: 100%;
+
+}
+
+
+.header {
+  	background: url(https://d3nn873nee648n.cloudfront.net/900x600/18896/220-SM876233.jpg) no-repeat; 
+  	background-size: 100%;
+	width: : 100%;
+	position: relative;
+
+}
+
+.bg-image-content{
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	width: 100%;
+}
+
+.card-effect:hover{
+
+	transform: translateY(-20px);
+	box-shadow: 1px 1px 14px 10px rgba(153,153,153,0.88);
+	transition: all 0.4s linear;	
+
+}
+
+
+/*-----------------		Contact Us Section	start ---------------*/
+
+::placeholder{
+	font-size: 0.9rem;
+	padding-left: 0.3rem;
+}
+
+
+
+/*-----------------		Contact Us Section	End ---------------*/
+
+
+
+
+
+
+/*<!-- ########################    news letter start ################ --->*/
+
+		
+	.news-input{
+
+			border-radius: 20px 0px 0px 20px !important;
+	}
+
+
+	.input-group-text{
+
+			border-radius: 0px 20px 20px 0px !important;
+	}
+
+			
+/*<!-- ########################    news letter end ################ --->*/
+
+
+#topBtn{
+
+	z-index: 99;
+	position: fixed;
+	right: 25px;
+	bottom: 25px;
+	border: none;
+
+}
+
+
+#skills{
+
+	background: rgb(1,4,14);
+	background: linear-gradient(90deg, rgba(1,4,14,0.9220063025210083) 0%, rgba(0,212,255,0.09007352941176472) 100%);
+
+}
+
+#contact-us{
+
+	background: rgb(1,4,14);
+	background: linear-gradient(90deg, rgba(1,4,14,0.5802696078431373) 0%, rgba(0,212,255,0.09007352941176472) 100%);
+
+}
+
+
+.some-details .container p{
+
+	background-color: var(--dark);
+	color: var(--white);
+}
+
+
+
+
+.footer-section ul li a{
+
+	font-size: 1.2rem;
+	color: #ffff;
+
+}
+
+
+
+@media(min-width: 1200px){
+
+	.header{
+
+			height: 700px;
+	}
+
+	html{
+
+		font-size: 70%;
+	}
+
+
+	.sec-mt{
+
+		margin-top: 60px !important;
+	}
+
+	.content-mt{
+
+		margin-top: 60px !important;	
+	}
+
+
+}
+
+
+
+
+@media(min-width: 992px) and (max-width: 1199px){
+
+	.header{
+
+			height: 600px;
+	}
+
+	html{
+
+		font-size: 65%;
+	}
+
+	.sec-mt{
+
+		margin-top: 50px !important;
+	}
+
+	.content-mt{
+
+		margin-top: 50px !important;	
+	}
+
+
+}
+
+
+
+
+@media(min-width: 768px) and (max-width: 991px){
+
+		.header{
+
+			height: 500px;
+	}
+
+	html{
+
+		font-size: 55%;
+	}
+
+
+	.sec-mt{
+
+		margin-top: 40px !important;
+	}
+
+	.content-mt{
+
+		margin-top: 40px !important;	
+	}
+
+
+}
+
+
+
+@media(min-width:576px) and (max-width: 767px){
+
+		.header{
+
+			height: 400px;
+	}
+
+
+	html{
+
+		font-size: 45%;
+	}
+
+
+	.sec-mt{
+
+		margin-top: 35px !important;
+	}
+
+	.content-mt{
+
+		margin-top: 35px !important;	
+	}
+
+
+
+}
+
+
+
+
+
+
+@media(min-width:321px) and (max-width: 575px){
+
+
+		.header{
+
+			height: 300px;
+	}
+
+
+	html{
+
+		font-size: 38%;
+	}
+
+	.sec-mt{
+
+		margin-top: 30px !important;
+	}
+
+	.content-mt{
+
+		margin-top: 30px !important;	
+	}
+
+
+}
+
+
+@media(max-width: 320px){
+
+
+		.header{
+
+			height: 200px;
+	}
+
+	html{
+
+		font-size: 35%;
+	}
+
+
+	.sec-mt{
+
+		margin-top: 25px !important;
+	}
+
+	.content-mt{
+
+		margin-top: 25px !important;	
+	}
+
+
+}
